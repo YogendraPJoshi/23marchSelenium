@@ -1,0 +1,11 @@
+	
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="mySuite">
+  <test thread-count="5" name="my1stTest">
+    <classes>
+		<class name="testNGXML.NewTest1"/>
+		<class name="testNGXML.NewTest2"/>
+     	<class name="testNGXML.NewTest3"/>  
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
